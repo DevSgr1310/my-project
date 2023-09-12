@@ -85,6 +85,25 @@ export default function Campagin() {
                         <button type="button" className=" w-[80%] text-[#FF4D00]">View</button>
                     </div>
                 </div>
+                <div className="  ml-10 border bg-white w-[24%] rounded-xl">
+                    <img src={logo} className=" p-2" alt="" />
+                    <h1 className="p-2 font-bold">Explore Vietnam Tours</h1>
+                    <div className=" pl-2 pb-2 flex" >
+                        <p className=" text-sm font-semibold">Campagin ID:</p>
+                        <p className=" text-sm">148h085hp</p>
+                    </div>
+                    <div className=" pl-2 pb-2 flex" >
+                        <p className=" text-sm font-semibold">Company:</p>
+                        <p className="text-sm">XYZ Pvt. Ltd.</p>
+                    </div>
+                    <div className=" pl-2 pb-2 flex" >
+                        <p className=" text-sm font-semibold">Advertiser ID:</p>
+                        <p className="text-sm">advertiseruser1@gmail.com</p>
+                    </div>
+                    <div className=" border border-[#FF4D00] flex justify-center rounded-3xl m-3">
+                        <button type="button" className=" w-[80%] text-[#FF4D00]">View</button>
+                    </div>
+                </div>
             </div>
             <div className="m-3  flex w-[80%]">
                 <p className=" pl-4 ">Filter</p>
