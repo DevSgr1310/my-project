@@ -11,7 +11,7 @@ export default function Refund() {
     
 <div className="h-screen flex w-screen bg-[#E5E5E5]">
             <DpMenu />
-            <div className="h-screen w-screen  overflow-hidden bg-[#F2F2F2]" >
+            <div className="h-screen w-screen  overflow-scroll  bg-[#F2F2F2]" >
                 <Header/>
                <Pending/>
             </div>
