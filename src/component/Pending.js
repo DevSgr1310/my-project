@@ -43,7 +43,7 @@ export default function Campagin() {
 
             </div>
 
-            <div className=" mt-5    flex flex-wrap">
+            <div className=" mt-5    flex ">
                 <div className="  ml-4 border bg-white w-[24%] rounded-xl">
                     <img src={logo} className="w-[95%] m-2" alt="" />
                     <h1 className="p-2 font-bold">Explore Vietnam Tours</h1>
@@ -120,39 +120,22 @@ export default function Campagin() {
                         <button type="button" className=" w-[80%] text-[#FF4D00]">View</button>
                     </div>
                 </div>
-                <div className="  ml-4 border bg-white w-[24%] rounded-xl">
-                    <img src={logo} className="w-[95%] m-2" alt="" />
-                    <h1 className="p-2 font-bold">Explore Vietnam Tours</h1>
-                    <div className=" pl-2 pb-2 flex" >
-                        <p className=" text-sm font-semibold">Campagin ID:</p>
-                        <p className=" text-sm">148h085hp</p>
-                    </div>
-                    <div className=" pl-2 pb-2 flex" >
-                        <p className=" text-sm font-semibold">Company:</p>
-                        <p className="text-sm">XYZ Pvt. Ltd.</p>
-                    </div>
-                    <div className=" pl-2 pb-2 flex" >
-                        <p className=" text-sm font-semibold">Advertiser ID:</p>
-                        <p className="text-sm">advertiseruser1@gmail.com</p>
-                    </div>
-                    <div className=" border border-[#FF4D00] flex justify-center rounded-3xl m-3">
-                        <button type="button" className=" w-[80%] text-[#FF4D00]">View</button>
-                    </div>
-                </div>
+
 
             </div>
-            <div className="flex justify-center relative bg-[#F2F2F2]">
-            <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white  rounded-3xl hover:bg-[#FF4D00]  hover:text-white">
-                 <div className="ml-4">
-                <AiOutlineArrowLeft/>
-                </div></button>
-            <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white  rounded-3xl hover:bg-[#FF4D00]  hover:text-white">1</button>
-            <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white rounded-3xl hover:bg-[#FF4D00]  hover:text-white">2</button>
-            <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white rounded-3xl hover:bg-[#FF4D00]  hover:text-white">3</button>
-            <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white rounded-3xl hover:bg-[#FF4D00]  hover:text-white">
-                <div className="ml-4">
-                <AiOutlineArrowRight/>
-                </div>
+            <div className="flex justify-center  ">
+                <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white  rounded-3xl hover:bg-[#FF4D00]  hover:text-white">
+                    <div className="ml-4">
+                        <AiOutlineArrowLeft />
+                    </div></button>
+
+                <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white  rounded-3xl hover:bg-[#FF4D00]  hover:text-white">1</button>
+                <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white rounded-3xl hover:bg-[#FF4D00]  hover:text-white">2</button>
+                <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white rounded-3xl hover:bg-[#FF4D00]  hover:text-white">3</button>
+                <button type="button" className=" mt-11 ml-5 w-[4%] h-10  bg-white rounded-3xl hover:bg-[#FF4D00]  hover:text-white">
+                    <div className="ml-4">
+                        <AiOutlineArrowRight />
+                    </div>
                 </button>
             </div>
 
